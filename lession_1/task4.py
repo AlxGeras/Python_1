@@ -1,11 +1,10 @@
 number = input('Введите число: ')
-
 i = 0
-Max = 0
+maximum = 0
 
 while i < len(number):
-    if int(number[i]) > Max:
-        Max = int(number[i])
+    if int(number[i]) > maximum:
+        maximum = int(number[i])
     i += 1
 
-print('Самое большая цифра в числе: ', Max)
+print('Самое большая цифра в числе: ', maximum)

@@ -1,5 +1,4 @@
 time = int(input('Введите время в секундах: '))
-
 hours = time // 3600
 minutes = (time - 3600*hours) // 60
 seconds = time - hours*3600 - minutes*60
